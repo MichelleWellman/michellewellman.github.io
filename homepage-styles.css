@@ -1,0 +1,22 @@
+/*Heading Font*/
+h1 {
+    font-family: 'Roboto', sans-serif; 
+}
+div.Heading {
+    width: 300px;
+}
+
+/*About Me Section*/
+/*Font for the Heading*/
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+/*Section Width*/
+div.About_Me {
+    width: 300px;
+}
+
+/*Font size for paragraph text*/
+p {
+    font-family: 'Open-sans', sans-serif; font-size: 12px;
+}
