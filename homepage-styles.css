@@ -1,7 +1,9 @@
+/*Heading*/
 /*Heading Font*/
 h1 {
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto_Light', sans-serif; 
 }
+/*Heading Width*/
 div.Heading {
     width: 300px;
 }
@@ -9,14 +11,19 @@ div.Heading {
 /*About Me Section*/
 /*Font for the Heading*/
 h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto-Light', sans-serif;
 }
 /*Section Width*/
 div.About_Me {
     width: 300px;
 }
 
+/*Links Section*/
+/*Font for the List Titles*/
+h3 {
+}
+
 /*Font size for paragraph text*/
 p {
-    font-family: 'Open-sans', sans-serif; font-size: 12px;
+    font-family: 'Roboto-Light', sans-serif; font-size: 12px;
 }
