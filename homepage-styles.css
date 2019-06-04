@@ -7,21 +7,33 @@
 
 /*Heading Font*/
 h1 {
-    font-family: 'Roboto-Light', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
+    font-size: 38px;
 }
 /*Section Heading Font*/
 h2 {
-    font-family: 'Roboto-Light', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 29px;
 }
 /*Subsection Heading Font*/
 h4 {
-    font-family: 'Roboto-Light', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 18;
+}
+/*Font size for links*/
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 16;
 }
 /*Paragraph Text Font*/
 p {
-    font-family: 'Roboto-Light', sans-serif; font-size: 13px;
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
+    font-size: 14px;
 }
 
 /*Font color for Links*/
@@ -31,6 +43,7 @@ a:link {
 a:visited {
     color: #FFB9BB
 }
+
 
 /*Specifications for the Navigation Bar*/
 .topnav a{
@@ -46,22 +59,26 @@ a:visited {
     background-color: #744186;
     color: #120016;
 }
+.topnav a:active {
+    background-color: #744186;
+    color: #120016;
+}
 
-/*Heading*/
+
+/*Setting the width of the homepage sections*/
 /*Heading Width*/
 div.Heading {
     width: 300px;
 }
-
 /*About Me Section*/
 div.About_Me {
     width: 300px;
 }
-
 /*Links Section*/
 div.Links {
     width: 300px;
 }
+
 
 /*Latest Post Section*/
 div.Latest_Post {
