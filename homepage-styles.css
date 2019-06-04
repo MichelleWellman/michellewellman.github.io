@@ -1,29 +1,58 @@
-/*Heading*/
+/*Fonts*/
 /*Heading Font*/
 h1 {
     font-family: 'Roboto_Light', sans-serif; 
 }
+/*Section Heading Font*/
+h2 {
+    font-family: 'Roboto-Light', sans-serif;
+}
+/*Subsection Heading Font*/
+h4 {
+    font-family: 'Roboto-Light', sans-serif;
+}
+/*Paragraph Text Font*/
+p {
+    font-family: 'Roboto-Light', sans-serif; font-size: 12px;
+}
+
+/*Font color for Links*/
+a:link {
+    color: #FFB9BB
+}
+a:visited {
+    color: #FFB9BB
+}
+
+/*Specifications for the Navigation Bar*/
+.topnav a{
+    font-family: 'Roboto', sans-serif;
+    float: right;
+    color: #FAFAFA;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #744186;
+    color: #120016;
+}
+
+/*Heading*/
 /*Heading Width*/
 div.Heading {
     width: 300px;
 }
 
 /*About Me Section*/
-/*Font for the Heading*/
-h2 {
-    font-family: 'Roboto-Light', sans-serif;
-}
 /*Section Width*/
 div.About_Me {
     width: 300px;
 }
 
 /*Links Section*/
-/*Font for the List Titles*/
-h3 {
-}
-
-/*Font size for paragraph text*/
-p {
-    font-family: 'Roboto-Light', sans-serif; font-size: 12px;
+/*Section Width*/
+div.Links {
+    width: 300px;
 }
