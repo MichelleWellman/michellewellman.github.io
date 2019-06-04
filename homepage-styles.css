@@ -1,7 +1,14 @@
 /*Fonts*/
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url(Roboto/Roboto-Light.ttf);
+}
+
 /*Heading Font*/
 h1 {
-    font-family: 'Roboto_Light', sans-serif; 
+    font-family: 'Roboto-Light', sans-serif;
+    font-weight: 200;
 }
 /*Section Heading Font*/
 h2 {
@@ -13,7 +20,8 @@ h4 {
 }
 /*Paragraph Text Font*/
 p {
-    font-family: 'Roboto-Light', sans-serif; font-size: 12px;
+    font-family: 'Roboto-Light', sans-serif; font-size: 13px;
+    font-weight: 200;
 }
 
 /*Font color for Links*/
@@ -46,13 +54,17 @@ div.Heading {
 }
 
 /*About Me Section*/
-/*Section Width*/
 div.About_Me {
     width: 300px;
 }
 
 /*Links Section*/
-/*Section Width*/
 div.Links {
     width: 300px;
+}
+
+/*Latest Post Section*/
+div.Latest_Post {
+    width: 724px;
+    background-color: #FAFAFA;
 }
