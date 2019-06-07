@@ -18,13 +18,13 @@ h2 {
     font-size: 29px;
 }
 /*Subsection Heading Font*/
-h4 {
+h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-size: 18;
 }
 /*Font size for links*/
-h5 {
+h4 {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-size: 16;
@@ -38,10 +38,12 @@ p {
 
 /*Font color for Links*/
 a:link {
-    color: #FFB9BB
+    color: #FFB9BB;
+    text-decoration: none;
 }
 a:visited {
-    color: #FFB9BB
+    color: #FFB9BB;
+    text-decoration: none;
 }
 
 
