@@ -1,44 +1,75 @@
 /*Fonts*/
 
-@font-face {
-    font-family: Roboto-Light;
-    src: url(Roboto/Roboto-Light.ttf);
-}
-
-*{
+/* *{
     color: #FAFAFA;
-}
+} */
 
+/*Homepage Fonts*/
 /*Heading Font*/
 h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    font-size: 28pt;
+    font-size: 72pt;
+    color: #FAFAFA;
 }
 /*Section Heading Font*/
 h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-size: 24pt;
+    color: #FAFAFA;
 }
 /*Subsection Heading Font*/
 h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-size: 16pt;
+    color: #FAFAFA;
 }
 /*Font size for links*/
 h4 {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-size: 14pt;
+    color: #FAFAFA;
 }
-/*Paragraph Text Font*/
-p {
+/*Font for About Me text*/
+h5 {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-size: 12pt;
+    color: #FAFAFA;
 }
+
+/*Blog Post Fonts*/
+/*Blog Titles*/
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36pt;
+    color: #120016;
+    padding-top: 0.5in;
+}
+/*Subsections*/
+/*Paragraph Text Font*/
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+    color: #120016;
+}
+
+
+/*Stuff to overlay text on the cover image*/
+.post-content {
+    /* background: none repeat scroll 0 0 #FFFFFF; */
+    opacity: 1;
+    top: 125px;
+    left: 0;
+    position: absolute;
+}
+.thumbnail {
+    position: relative;
+}
+
 
 /*Font color for Links*/
 a:link {
@@ -72,23 +103,6 @@ a:visited {
 }
 
 
-/*Setting the width of the homepage sections*/
-/*Heading Width*/
-div.Heading {
-    width: 300px;
-}
-/*About Me Section*/
-div.About_Me {
-    width: 300px;
-}
-/*Links Section*/
-div.Links {
-    width: 300px;
-}
-
-
-/*Latest Post Section*/
 div.Latest_Post {
-    width: 724px;
-    background-color: #FAFAFA;
+    text-align: center;
 }
