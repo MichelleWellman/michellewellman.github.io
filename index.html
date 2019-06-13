@@ -1,113 +1,94 @@
 <html>
     <!--Homepage title and link-->
     <head> 
-        <link rel="stylesheet" href="homepage-styles.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/homepage-styles.css">
+        <script src="js/bootstrap.min.js"></script>
         <title> Michelle Wellman </title>
     </head>
 
-    <body bgcolor="#120016">
+    <body style="background-color: #120016">
 
         <!--Cover image (Horsehead Nebula)-->
-        <img src="Cover Image - Horsehead Nebula.jpg" height=250px width=100% alt = "Cover Image - Horsehead Nebula">
+        <div class="row">
+            <img src="Cover Image - Horsehead Nebula.jpg" height=250px width=100% alt = "Cover Image - Horsehead Nebula">
+        </div>
         
         <!--Navigation Bar-->
         <div class = "topnav">
-            <a href="#gallery"> Gallery </a>
-            <a href="#portfolio"> Portfolio </a>
-            <a href="#research"> Research </a>
-            <a href="#myblog"> My Blog </a>
             <a class = "active" href="#home"> Home </a>
+            <a href="#myblog"> My Blog </a>
+            <a href="#research"> Research </a>
+            <a href="#portfolio"> Portfolio </a>
+            <a href="#gallery"> Gallery </a>
         </div>
 
-        <!--Heading-->
-        <div class="Heading">
-            <h1>
-                <font color = #FAFAFA>
+        <div class = "row col-md-12">
+            <!--Side Bar-->
+            <div class="col-md-3">
+                <h1>
                     Michelle Wellman
-                </font>
-            </h1>
-            <img src="Profile Picture.jpg" height=150px width=150px alt = "Profile Picture">
-        </div>
+                </h1>
+                <img src="Profile Picture.jpg" height=150px width=150px alt = "Profile Picture">
+                <p></p>
 
-        <!--About Me Section-->
-        <div class="About_Me">
-            <h2>
-                <font color = #FAFAFA>
+                <!--About Me Section-->
+                <h2>
                     About Me 
-                </font>
-                <p>
-                    <font color = #FAFAFA>
-                            My name is Michelle Wellman and I am a recent graduate from Mount Holyoke College with a bachelor's degree in physics and astronomy. My ultimate goal is to attend graduate school to get a PhD in physics and become a physics professor in the future. In my spare time I like to play ultimate frisbee, practice various forms of art, and cook.
-                    </font>
-                </p>
-                <p>
-                    <font color = #FAFAFA>
-                            On this website you will find blog posts on things that interest me such as physics and science, details on my expereinces as a physics student, as well as some of my original work. 
-                    </font>
-                </p>    
-            </h2>
-        </div>
+                    <p>
+                        My name is Michelle Wellman and I am a recent graduate from Mount Holyoke College with a bachelor's degree in physics and astronomy. My ultimate goal is to attend graduate school to get a PhD in physics and become a physics professor in the future. In my spare time I like to play ultimate frisbee, practice various forms of art, and cook.
+                    </p>
+                    <p>
+                        On this website you will find blog posts on things that interest me such as physics and science, details on my expereinces as a physics student, as well as some of my original work. 
+                    </p>    
+                </h2>
 
-        <!--Links Section-->
-        <div class="Links">
-            <h2>
-              <font color = #FAFAFA>
-                  Links
-              </font>  
-              <h3>
-                  <font color = #FAFAFA>
-                      Other Accounts, Profiles, and Contact Information
-                  </font>
-                  <h4>
-                      <font color = #FAFAFA>
-                          <ul>
-                              <li><font color = #FFB9BB> Email: wellm22m@mtholyoke.edu </font></li>
-                              <p></p>
-                              <li><a href="http://www.linkedin.com/in/michelle-wellman-b18242169"> LinkedIn Profile </a></li>
-                              <p></p>
-                              <li><a href="https://www.goodreads.com/user/show/84442696-michelle-wellman"> Find out what I'm reading</a> </li>
-                          </ul>
-                      </font>
-                  </h4>
-              </h3>
-              <h3>
-                  <font color = #FAFAFA>
-                      Associations
-                  </font>
-                  <h4>
-                      <font color = #FAFAFA>
+                <!--Links Section-->
+                <h2>
+                    Links  
+                    <h3>
+                        Other Accounts, Profiles, and Contact Information
+                        <h4>
+                            <ul>
+                                <li style="color:#FFB9BB"> Email: wellm22m@mtholyoke.edu </li>
+                                <p></p>
+                                <li><a href="http://www.linkedin.com/in/michelle-wellman-b18242169"> LinkedIn Profile </a></li>
+                                <p></p>
+                                <li><a href="https://www.goodreads.com/user/show/84442696-michelle-wellman"> Find out what I'm reading</a> </li>
+                            </ul>
+                        </h4>
+                    </h3>
+                    <h3>
+                        Associations
+                        <h4>
                             <ul>
                                 <li><a href="https://www.mtholyoke.edu/acad/physics"> Mount Holyoke Physics Department</a></li>
                                 <p></p>
                                 <li><a href="https://www.mtholyoke.edu/acad/astronomy"> Mount Holyoke Astronomy Department </a></li>
                             </ul>
-                      </font>
-                    </h4>
-                </h3>
-                <h3>
-                  <font color = #FAFAFA>
-                      Friends and Fun Stuff
-                  </font>
-                  <h4>
-                      <font color = #FAFAFA>
-                          <ul>
-                              <li><a href="https://commons.mtholyoke.edu/physicsartvirtualexhibits/"> Themes in Physics and Art Virtual Exhibit </a> <br /> Put together by the "Themes in Physics and Art" class taught during the Spring 2018 semester by Spencer Smith</li>
-                              <p></p>
-                              <li><a href="https://www.facebook.com/mhcult/"> Daisy Chain Ultimate </a> <br /> The competitive women's ultimate frisbee team at Mount Holyoke College. </li>
-                              <p></p>
-                              <li><a href="https://www.facebook.com/MHC-Society-of-Physics-Students-1040334909345553/"> Society of Physics Students, Mount Holyoke College Chapter </a></li>
-                              <p></p>
-                              <li><a href="https://alexlamson.com/"> Alex Lamson </a> <br /> A handsome master's student in computer science at UMass</li>
-                          </ul>
-                      </font>
-                    </h4>
-              </h3>
-            </h2>
-        </div>
-    
-        <!-- Latest Post Section -->
-        <div id="Latest_Post">
-          
+                        </h4>
+                    </h3>
+                    <h3>
+                        Friends and Fun Stuff
+                        <h4>
+                            <ul>
+                                <li><a href="https://commons.mtholyoke.edu/physicsartvirtualexhibits/"> Themes in Physics and Art Virtual Exhibit </a> <br /> Put together by the "Themes in Physics and Art" class taught during the Spring 2018 semester by Spencer Smith </li>
+                                <p></p>
+                                <li><a href="https://www.facebook.com/mhcult/"> Daisy Chain Ultimate </a> <br /> The competitive women's ultimate frisbee team at Mount Holyoke College. </li>
+                                <p></p>
+                                <li><a href="https://www.facebook.com/MHC-Society-of-Physics-Students-1040334909345553/"> Society of Physics Students, Mount Holyoke College Chapter </a></li>
+                                <p></p>
+                                <li><a href="https://alexlamson.com/"> Alex Lamson </a> <br /> A handsome master's student in computer science at UMass</li>
+                            </ul>
+                        </h4>
+                    </h3>
+                </h2>
+            </div>    
+
+            <!-- Latest Post Section -->
+            <div class="col-md-8" id="Latest_Post">
+            <iframe src="blog posts/Post 1 - Welcome.pdf" style="width: 100%; height: 100%; position: absolute" frameborder="0"></iframe>
+            </div>
         </div>
     </body>
 </html>

@@ -5,35 +5,39 @@
     src: url(Roboto/Roboto-Light.ttf);
 }
 
+*{
+    color: #FAFAFA;
+}
+
 /*Heading Font*/
 h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    font-size: 38px;
+    font-size: 28pt;
 }
 /*Section Heading Font*/
 h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    font-size: 29px;
+    font-size: 24pt;
 }
 /*Subsection Heading Font*/
 h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    font-size: 18;
+    font-size: 16pt;
 }
 /*Font size for links*/
 h4 {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    font-size: 16;
+    font-size: 14pt;
 }
 /*Paragraph Text Font*/
 p {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    font-size: 14px;
+    font-size: 12pt;
 }
 
 /*Font color for Links*/
@@ -49,8 +53,9 @@ a:visited {
 
 /*Specifications for the Navigation Bar*/
 .topnav a{
+    margin: 0px;
     font-family: 'Roboto', sans-serif;
-    float: right;
+    float: left;
     color: #FAFAFA;
     text-align: center;
     padding: 14px 16px;
