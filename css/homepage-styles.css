@@ -11,6 +11,7 @@ h1 {
     font-weight: 200;
     font-size: 72pt;
     color: #FAFAFA;
+    text-shadow: -1px 0 #823916, 0 1px #823916, 1px 0 #823916, 0 -1px #823916;
 }
 /*Section Heading Font*/
 h2 {
@@ -46,15 +47,21 @@ h5 {
 h6 {
     font-family: 'Open Sans', sans-serif;
     font-size: 36pt;
-    color: #120016;
-    padding-top: 0.5in;
+    color: #FAFAFA;
+    padding: 50px 50px 50px 50px; 
+    border-style: solid;
+    border-color: #744186;
+    border-width: 20px 20px 20px 20px;
+    margin: 50px 200px 200px 200px;
 }
+
+
 /*Subsections*/
 /*Paragraph Text Font*/
 p {
     font-family: 'Open Sans', sans-serif;
     font-size: 12pt;
-    color: #120016;
+    color: #FAFAFA;
 }
 
 
