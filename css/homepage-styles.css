@@ -1,8 +1,8 @@
 /*Fonts*/
 
-/* *{
+*{
     color: #FAFAFA;
-} */
+}
 
 /*Homepage Fonts*/
 /*Heading Font*/
@@ -28,14 +28,21 @@ h3 {
     color: #FAFAFA;
 }
 /*Font size for links*/
-h4 {
+.mw-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 14pt;
+    color: #FAFAFA;
+}
+
+a {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-size: 14pt;
     color: #FAFAFA;
 }
 /*Font for About Me text*/
-h5 {
+.mw-about {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-size: 12pt;
@@ -47,8 +54,11 @@ h5 {
 h6 {
     font-family: 'Open Sans', sans-serif;
     font-size: 36pt;
-    color: #FAFAFA;
-    padding: 50px 50px 50px 50px; 
+    color: #FAFAFA; 
+}
+
+#Latest_Post {
+    padding: 50px 50px 50px 50px;
     border-style: solid;
     border-color: #744186;
     border-width: 20px 20px 20px 20px;
@@ -58,7 +68,7 @@ h6 {
 
 /*Subsections*/
 /*Paragraph Text Font*/
-p {
+.mw-blogtext {
     font-family: 'Open Sans', sans-serif;
     font-size: 12pt;
     color: #FAFAFA;
