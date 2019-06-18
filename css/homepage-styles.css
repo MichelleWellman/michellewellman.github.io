@@ -34,12 +34,20 @@ h3 {
     font-size: 14pt;
     color: #FAFAFA;
 }
-
 a {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-size: 14pt;
     color: #FAFAFA;
+}
+/*Font color for Links*/
+a:link {
+    color: #FFB9BB;
+    text-decoration: none;
+}
+a:visited {
+    color: #FFB9BB;
+    text-decoration: none;
 }
 /*Font for About Me text*/
 .mw-about {
@@ -56,17 +64,6 @@ h6 {
     font-size: 36pt;
     color: #FAFAFA; 
 }
-
-#Latest_Post {
-    padding: 50px 50px 50px 50px;
-    border-style: solid;
-    border-color: #744186;
-    border-width: 20px 20px 20px 20px;
-    margin: 50px 200px 200px 200px;
-}
-
-
-/*Subsections*/
 /*Paragraph Text Font*/
 .mw-blogtext {
     font-family: 'Open Sans', sans-serif;
@@ -85,17 +82,6 @@ h6 {
 }
 .thumbnail {
     position: relative;
-}
-
-
-/*Font color for Links*/
-a:link {
-    color: #FFB9BB;
-    text-decoration: none;
-}
-a:visited {
-    color: #FFB9BB;
-    text-decoration: none;
 }
 
 
@@ -122,4 +108,32 @@ a:visited {
 
 div.Latest_Post {
     text-align: center;
+}
+
+
+/*Styles for content sections on different pages*/
+/*Latest Post Section (Homepage and Blog) Styles*/
+#Latest_Post {
+    padding: 50px 50px 50px 50px;
+    border-style: solid;
+    border-color: #744186;
+    border-width: 20px 20px 20px 20px;
+    margin: 50px 200px 200px 200px;
+}
+/*Research Page Sections*/
+/*Alexi's Lab*/
+#Solar_Cells {
+    padding: 50px 50px 50px 50px;
+    border-style: solid;
+    border-color: #823916;
+    border-width: 20px 20px 20px 20px;
+    margin: 50px 50px 50px 50px;
+}
+/*Spencer's Lab*/
+#Fractals {
+    padding: 50px 50px 50px 50px;
+    border-style: solid;
+    border-color: #F17247;
+    border-width: 20px 20px 20px 20px;
+    margin: 50px 50px 50px 50px;
 }
