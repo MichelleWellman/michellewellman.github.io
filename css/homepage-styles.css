@@ -137,3 +137,20 @@ div.Latest_Post {
     border-width: 20px 20px 20px 20px;
     margin: 50px 50px 50px 50px;
 }
+/*Portfolio Page Sections*/
+/*Portfolio 1*/
+div.Portfolio_1 {
+    padding: 50px 50px 50px 50px;
+    border-style: solid;
+    border-color: #FFB9BB;
+    border-width: 20px 20px 20px 20px;
+    margin: 50px 50px 50px 50px;
+}
+/*Portfolio 2*/
+div.Portfolio_2 {
+    padding: 50px 50px 50px 50px;
+    border-style: solid;
+    border-color: #C14C66;
+    border-width: 20px 20px 20px 20px;
+    margin: 50px 50px 50px 50px;
+}
