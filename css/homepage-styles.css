@@ -70,6 +70,12 @@ h6 {
     font-size: 12pt;
     color: #FAFAFA;
 }
+/*Card Text Font*/
+.card-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11pt;
+    color: #FAFAFA;
+}
 
 
 /*Stuff to overlay text on the cover image*/
@@ -153,4 +159,10 @@ div.Portfolio_2 {
     border-color: #C14C66;
     border-width: 20px 20px 20px 20px;
     margin: 50px 50px 50px 50px;
+}
+
+
+/*Card Styles*/
+.card {
+    padding-bottom: 50px;
 }
