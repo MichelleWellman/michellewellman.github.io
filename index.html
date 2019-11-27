@@ -1,142 +1,218 @@
+<!doctype html>
 <html lang="en">
-<!--Homepage title, link, and styles-->
-<head> 
+<head>
+    
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <link rel="canonical" href="https://michellewellman.net">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/homepage-styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto&display=swap" rel="stylesheet">        <script src="js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
+    <!-- Bootstrap and CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="canonical" href="https://michellewellman.net">
+    <link rel="stylesheet" href="css/michellestyles.css">
+    
+    <!-- Roboto Font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto&display=swap" rel="stylesheet">
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <!-- Website Title -->
     <title> Michelle Wellman </title>
-    <meta name="description" content="I'm a recent graduate in physics and astronomy sharing my thoughts, interests, and experiences as a student." />
-
-
+    <meta name="description" content="I'm a recent graduate in physics and astronomy sharing my thoughts, interests, and experiences as a student.">
+    
+    <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+    
 </head>
 
 <body style="background-color: #120016">
-    
-    <!--Cover image (Horsehead Nebula)-->
-    <div class="thumbnail">
-        <img src="Cover Image - Horsehead Nebula.jpg" height=250px width=100% alt = "Cover Image - Horsehead Nebula">
-        <div class="caption post-content text-center">
-            <h1>Michelle Wellman</h1>
-        </div>
-    </div>
-    
-    <!--Navigation Bar-->
-    <div class = "topnav">
-        <a class = "active" href="https://michellewellman.net"> Home </a>
-        <a href="https://michellewellman.net/blog"> My Blog </a>
-        <a href="https://michellewellman.net/research"> Research </a>
-        <a href="https://michellewellman.net/portfolio"> Portfolio </a>
-        <a href="https://michellewellman.net/gallery"> Gallery </a>
-    </div>
-    
-    <div class = "row col-md-12">
-        <!--About Me and Links Section-->
-        <div class="col-md-3">
-            <img src="Profile Picture.jpg" height=150px width=150px alt = "Profile Picture">
-            <p></p>
-            
-            <!--About Me Section-->
-            <h2>
-                About Me
-            </h2>
-            <p class="mw-about">
-                My name is Michelle Wellman and I am currently working for the physics department at the University of Massachusetts 
-                Amherst as a lab assistant. The lab I work in is a neutrino detector lab where the ultimate goal is to detect 
-                neutrino-less double beta decays. I am a recent graduate from Mount Holyoke College with a bachelor's 
-                degree in physics and astronomy. My long term goal is to attend graduate school to get a PhD in physics 
-                and become a physics professor in the future, however I am currently looking for more post-bachelor's research 
-                opportunities. My recent interests physics research span the fields of elementary particle physics, astrophysics, 
-                and computational physics. In my spare time I like to practice various forms of visual art, go hiking and rollerblading, and cook.
-                <br/><br/>
-                On this website you will find blog posts on things that interest me such as physics and science, 
-                details on my experiences as a physics student, as well as some of my original work. 
-            </p>
-            
-            <!--Links Section-->
-            <h2>
-                Links
-            </h2>
-            <h3>
-                Other Accounts, Profiles, and Contact Information
-            </h3>
-            <p class="mw-link">
-                <ul>
-                    <li style="color:#FFB9BB; font-family: 'Roboto', sans-serif; font-weight: 200; font-size: 14pt;"> Email: mgwellman@umass.edu </li>
-                    <p></p>
-                    <li><a href="http://www.linkedin.com/in/michelle-wellman-b18242169"> LinkedIn Profile </a></li>
-                    <p></p>
-                    <li><a href="https://www.goodreads.com/user/show/84442696-michelle-wellman"> Find out what I'm reading</a> </li>
+    <div class="container">
+
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./newnewindex.html"> Home <span class="sr-only">(current)</span></a>
+                    </li>
+                        
+                    <li class="nav-item">
+                        <a class="nav-link" href="./blog.html"> Blog </a>
+                    </li>
+                        
+                    <li class="nav-item">
+                        <a class="nav-link" href="./research.html"> Research </a>
+                    </li>
+                        
+                    <li class="nav-item">
+                        <a class="nav-link" href="./projects.html"> Projects </a>
+                    </li>
+                        
+                    <li class="nav-item">
+                        <a class="nav-link" href="./shells-kitchen.html"> Shell's Kitchen </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about-me.html"> About Me </a>
+                    </li>
                 </ul>
-            </p>
-            
-            <h3>
-                Associations
-            </h3>
-            <p class="mw-link">
-                <ul>
-                    <li><a href="https://www.physics.umass.edu/"> University of Massachusetts Physics Department </a></li>
-                    <p></p>
-                    <li><a href="http://www.physics.umass.edu/acfi/"> Amherst Center for Fundamental Interactions </a></li>
-                    <p></p>
-                    <li><a href="https://www.mtholyoke.edu/acad/physics"> Mount Holyoke Physics Department </a></li>
-                    <p></p>
-                    <li><a href="https://www.mtholyoke.edu/acad/astronomy"> Mount Holyoke Astronomy Department </a></li>
-                </ul>
-            </p>
-            <h3>
-                Friends and Fun Stuff
-            </h3>
-            <p class="mw-link">
-                <ul>
-                    <li><a href="https://commons.mtholyoke.edu/physicsartvirtualexhibits/"> Themes in Physics and Art Virtual Exhibit </a> <br /> <p class="mw-link">Put together by the "Themes in Physics and Art" class taught during the Spring 2018 semester by Spencer Smith </p></li>
-                    <p></p>
-                    <li><a href="https://www.facebook.com/mhcult/"> Daisy Chain Ultimate </a> <br /> <p class="mw-link">The competitive women's ultimate frisbee team at Mount Holyoke College. </p></li>
-                    <p></p>
-                    <li><a href="https://www.facebook.com/MHC-Society-of-Physics-Students-1040334909345553/"> Society of Physics Students, Mount Holyoke College Chapter </a></li>
-                    <p></p>
-                    <li><a href="https://alexlamson.com/"> Alex Lamson </a> <br /> <p class="mw-link">A handsome master's student in computer science at UMass </p></li>
-                </ul>
-            </p>
-        </div>    
-        
-        <!-- Latest Post Section -->
-        <div class="col-md-9 mw-blogtext" style="background-color: #120016">
-            <div id="Latest_Post">
+            </div>
+
+        </nav>
+
+        <!-- Profile Picture and Short Bio Section -->
+        <div class="row col-12">
+
+            <!-- Profile Picture -->
+            <div class="col-sm-3 col-md-3 col-lg-3" style="max-width: 33%">
+                <img src="Profile Picture.jpg" class="img-fluid" style="height: auto" alt="Profile Picture">
+            </div>
+
+            <!-- Short Bio -->
+            <div class="col=sm-9 col=md-9 col-lg-9">
+                <!-- Website Header -->
+                <h1 class="text-left display-3">Michelle Wellman</h1>
+                <!-- Short Bio -->
                 <h6>
-                    WELCOME
+                    Hi, I'm a recent graduate with a bachelor's degree in physics and astronomy and I'm currently conducting research in a physics lab focused on neutrino detection. I am currently looking for more post-bachelor's research opportunities and applying to graduate school with the goal of pursuing a PhD in physics.
                 </h6>
-                <p></p>
-                <p>
-                    June 10, 2019
-                </p>
-                <p>
-                    Hello everyone, and welcome to the first blog post on my brand-new website! To start off, let me tell you a little bit about myself: my name is Michelle Wellman, and I am a recent graduate from Mount Holyoke College with a double major in physics and astronomy. The next step forward for me with this bachelor’s degree is to get into a program where I can pursue a PhD in physics or astrophysics. With a PhD, I hope to become a physics professor. Outside of physics, one thing I like to do in my spare time is play ultimate frisbee. While I was in college, I played on Mount Holyoke’s women’s club team all four years, and even served as a captain during my last three semesters. Additionally, I served on the board for Mount Holyoke’s Society of Physics Students chapter as the social chair and then as the Vice President. Some of my other hobbies and activities include art, cooking, playing with my dog, and watching football.
-                </p>
-                <p>
-                    The next year or two are going to be “gap years” for me, where I will be taking a break from being a full-time student, exploring my interests, and working on strengthening my applications for grad school. Starting in the Fall I will be taking one course per semester in order to further my education in physics, and to strengthen my case for my readiness to begin a PhD. Additionally, I have been applying to different kinds of jobs that I can do in the meantime (I’ll probably share more on this process in a later post). 
-                </p>
-                <p>
-                    <strong>About this Website</strong>
-                </p>
-                <p>
-                    This is my personal website, and there are four major components to it: my blog, details on my research experiences, a portfolio showing some of my best work, and a photo gallery. This is the first post of my blog, which consists of posts on my experiences as a physics student, my thoughts on science or other things that interest me, as well as some miscellaneous stuff that I’ve been working on, or wish to share.
-                </p>
-                <p>
-                    I hope you all enjoy it! 
-                </p>
+                <h5 style="color: #FFB9BB">
+                    Email: mgwellman@umass.edu
+                </h5>
+            </div>
+
+        </div>
+
+        <!-- Carousel of Latest Content -->
+        <!-- Note: for the images on th carousel, make sure the are all the same size so the carousel height does not have to re-adjust. Also make sure they are wide enough. -->
+        <div id="LatestContent" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+
+                <!-- First slide (most recent content): Galaxy -->
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="placeholder-images/Galaxy.jpg" alt="Galaxy">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Galaxy</h2>
+                    </div>
+                </div>
+
+                <!-- Second slide: Black Hole -->
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="placeholder-images/Blackhole.jpg" alt="Black Hole">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Black Hole</h2>
+                    </div>
+                </div>
+
+                <!-- Third slide: Sun -->
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="placeholder-images/Sun.png" alt="Sun">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Sun</h2>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Previous Button -->
+            <a class="carousel-control-prev" href="#LatestContent" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+
+            <!-- Next Button -->
+            <a class="carousel-control-next" href="#LatestContent" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
+        </div>
+
+        <!-- Content Cards -->
+        <div class="row">
+
+            <!-- Blog Posts -->
+            <div class="col-sm-12 col-md-6 col-lg-4 d-flex align-items-stretch">
+                <div class="card" style="border-color: #744186; border-width: thick">
+                    <img class="card-img-top" src="placeholder-images/Jupiter.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog Posts</h5>
+                        <p class="card-text">View and read my blog posts on my experiences as a physics student, as well as other things that interest me.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Research -->
+            <div class="col-sm-12 col-md-6 col-lg-4 d-flex align-items-stretch">
+                <div class="card" style="border-color: #F17247; border-width: thick">
+                    <img class="card-img-top" src="placeholder-images/Saturn.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">Research</h5>
+                        <p class="card-text">Find information on research projects that I have participated in, and view completed papers and posters.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projects -->
+            <div class="col-sm-12 col-md-6 col-lg-4 d-flex align-items-stretch">
+                <div class="card" style="border-color: #FFB9BB; border-width: thick">
+                    <img class="card-img-top" src="placeholder-images/Uranus.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">Projects</h5>
+                        <p class="card-text">View some of the work I have completed both for classes and outside of school</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Notes -->
+            <div class="col-sm-12 col-md-6 col-lg-4 d-flex align-items-stretch">
+                <div class="card" style="border-color: #9E6CC1; border-width: thick">
+                    <img class="card-img-top" src="placeholder-images/Neptune.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">Notes</h5>
+                        <p class="card-text">View my notes on math, physics and coding</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Shell's Kitchen -->
+            <div class="col-sm-12 col-md-6 col-lg-4 d-flex align-items-stretch">
+                <div class="card" style="border-color: #BF4F27; border-width: thick">
+                    <img class="card-img-top" src="placeholder-images/Earth.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">Shell's Kitchen</h5>
+                        <p class="card-text">Photo tutorials for some of my favorite recipes</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- About Me -->
+            <div class="col-sm-12 col-md-6 col-lg-4 d-flex align-items-stretch">
+                <div class="card" style="border-color: #C14C66; border-width: thick">
+                    <img class="card-img-top" src="placeholder-images/Venus.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">About Me</h5>
+                        <p class="card-text">Learn more about my background</p>
+                    </div>
+                </div>
             </div>
         </div>
+
     </div>
 </body>
 </html>

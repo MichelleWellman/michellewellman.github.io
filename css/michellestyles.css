@@ -1,0 +1,95 @@
+* {
+    color: #FAFAFA; /* #FFEBEB; */
+}
+
+/* Profile Picture Specifications */
+.img-fluid {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-width: 100%;
+    height: auto;
+}
+/* Navigation Bar Specifications */
+.navbar {
+    background-image: url("../nav-bar-background2.jpg");
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    color: #FAFAFA;
+    height: 75px;
+}
+/* Carousel Specifications */
+.carousel {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+}
+/* Card Specifications */
+.card {
+    border-color: #744186;
+    background-color: #120016;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+/* Fonts */
+/* Heading Font (Michelle Wellman) */
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    color: #FAFAFA;
+    text-shadow: -1px 0 #823916, 0 1px #823916, 1px 0 #823916, 0 -1px #823916;
+}
+@media (max-width: 575.98px) {
+    .display-3 {
+        font-size: 2.25rem;
+        font-weight: 300;
+        line-height: 1.0;
+    }
+
+    .display-4 {
+        font-size: 1.75rem;
+        font-weight: 300;
+        line-height: 1.0;
+    }
+
+    .display-3 {
+        font-size: 1.0rem;
+        font-weight: 300;
+        line-height: 1.0; 
+    }
+}
+
+/* Font for Card Headers */
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #FAFAFA;
+}
+
+/* Font for Blog Post Titles */
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #FAFAFA;
+}
+
+/* Font for Email */
+h5 {
+    font-family: 'Roboto', sans-serif;
+    color: #FAFAFA;
+}
+
+/* Font for Short Bio */
+h6 {
+    font-family: 'Roboto', sans-serif;
+    color: #DCDCDC;
+    font-weight: lighter;
+}
+
+/* Paragraph Font */
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #FAFAFA;
+}
