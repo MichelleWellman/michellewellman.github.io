@@ -28,7 +28,6 @@
 }
 /* Card Specifications */
 .card {
-    border-color: #744186;
     background-color: #120016;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -56,7 +55,7 @@ h1 {
         line-height: 1.0;
     }
 
-    .display-3 {
+    .display-5 {
         font-size: 1.0rem;
         font-weight: 300;
         line-height: 1.0; 
@@ -75,7 +74,13 @@ h3 {
     color: #FAFAFA;
 }
 
-/* Font for Email */
+/* Font for Link Headings */
+h4 {
+    font-family: 'Roboto', sans-serif;
+    color: #FAFAFA;
+}
+
+/* Font for Email on Homepage */
 h5 {
     font-family: 'Roboto', sans-serif;
     color: #FAFAFA;
@@ -92,4 +97,14 @@ h6 {
 p {
     font-family: 'Open Sans', sans-serif;
     color: #FAFAFA;
+}
+
+/* Font Colors for Links */
+a:link {
+    color: #FFB9BB;
+    text-decoration: none;
+}
+a:visited {
+    color: #FFB9BB;
+    text-decoration: none;
 }
