@@ -103,32 +103,44 @@
         </div>
 
         <!-- Carousel of Latest Content -->
-        <!-- Note: for the images on th carousel, make sure the are all the same size so the carousel height does not have to re-adjust. Also make sure they are wide enough. -->
+        <!-- Note: for the images on the carousel, make sure the are all the same size so the carousel height does not have to re-adjust. Also make sure they are wide enough. -->
+        <!-- Specifications for images on the carousel: 
+                2:1 aspect ratio (width is double the height)
+                All three images should be exactly the same width and height so the carousel doesn't readjust awkwardly. -->
         <div id="LatestContent" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
 
-                <!-- First slide (most recent content): Galaxy -->
+                <!-- First slide (most recent content): Blog on website construction -->
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="placeholder-images/Galaxy.jpg" alt="Galaxy">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2>Galaxy</h2>
-                    </div>
+                    <a href="./blog.html">
+                        <img class="d-block w-100" src="img/Carousel_Images/Building_Website_Carousel.png" alt="First Item">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2 class="display-4">Blog</h2>
+                            <p>Read about my website construction process!</p>
+                        </div>
+                    </a>
                 </div>
 
-                <!-- Second slide: Black Hole -->
+                <!-- Second slide: Information on my current research -->
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="placeholder-images/Blackhole.jpg" alt="Black Hole">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2>Black Hole</h2>
-                    </div>
+                    <a href="./research.html">
+                        <img class="d-block w-100" src="img/Carousel_Images/Pocar_Lab_Carousel.png" alt="Second Item">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2 class="display-4">Research</h2>
+                            <p>Read about the lab I recently joined and the research I have been conducting for the past five months!</p>
+                        </div>
+                    </a>
                 </div>
 
-                <!-- Third slide: Sun -->
+                <!-- Third slide: Guacamole Recipe -->
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="placeholder-images/Sun.png" alt="Sun">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2>Sun</h2>
-                    </div>
+                    <a href="./guacamole.html">
+                        <img class="d-block w-100" src="img/Carousel_Images/Guac_Carousel.png" alt="Third Item">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2 class="display-4">Shell's Kitchen</h2>
+                            <p>Learn how I make my delicious guacamole!</p>
+                        </div>
+                    </a>
                 </div>
 
             </div>
@@ -152,68 +164,80 @@
 
             <!-- Blog Posts -->
             <div class="col-sm-12 col-md-6 col-lg-4 d-flex align-items-stretch">
-                <div class="card" style="border-color: #744186; border-width: thick">
-                    <img class="card-img-top" src="placeholder-images/Jupiter.jpg">
-                    <div class="card-body">
-                        <h5 class="card-title">Blog Posts</h5>
-                        <p class="card-text">View and read my blog posts on my experiences as a physics student, as well as other things that interest me.</p>
+                <a href="./blog.html">
+                    <div class="card" style="border-color: #C14C76; border-width: thick">
+                        <img class="card-img-top" src="img/Homepage_Thumbnails/Blog_Thumbnail.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Blog Posts</h5>
+                            <p class="card-text">View and read my blog posts on my experiences as a physics student, as well as other things that interest me.</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
 
             <!-- Research -->
             <div class="col-sm-12 col-md-6 col-lg-4 d-flex align-items-stretch">
-                <div class="card" style="border-color: #F17247; border-width: thick">
-                    <img class="card-img-top" src="img/Research_Photo.png">
-                    <div class="card-body">
-                        <h5 class="card-title">Research</h5>
-                        <p class="card-text">Find information on research projects that I have participated in, and view completed papers and posters.</p>
+                <a href="./research.html">
+                    <div class="card" style="border-color: #F17247; border-width: thick">
+                        <img class="card-img-top" src="img/Homepage_Thumbnails/Research_Thumbnail.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Research</h5>
+                            <p class="card-text">Find information on research projects that I have participated in, and view completed papers and posters.</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
 
             <!-- Projects -->
             <div class="col-sm-12 col-md-6 col-lg-4 d-flex align-items-stretch">
-                <div class="card" style="border-color: #C14C76; border-width: thick">
-                    <img class="card-img-top" src="img/Projects_Photo.png">
-                    <div class="card-body">
-                        <h5 class="card-title">Projects</h5>
-                        <p class="card-text">View some of the work I have completed both for classes and outside of school</p>
+                <a href="./projects.html">
+                    <div class="card" style="border-color: #C14C76; border-width: thick">
+                        <img class="card-img-top" src="img/Homepage_Thumbnails/Projects_Thumbnail.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Projects</h5>
+                            <p class="card-text">View some of the work I have completed for classes, as well some projects I've worked on outside of school</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
 
             <!-- Notes -->
             <div class="col-sm-12 col-md-6 col-lg-4 d-flex align-items-stretch">
-                <div class="card" style="border-color: #802900; border-width: thick">
-                    <img class="card-img-top" src="img/Notes_Photo.png">
-                    <div class="card-body">
-                        <h5 class="card-title">Notes</h5>
-                        <p class="card-text">View my notes on math, physics and coding</p>
+                <a href="./notes.html">
+                    <div class="card" style="border-color: #F17247; border-width: thick">
+                        <img class="card-img-top" src="img/Homepage_Thumbnails/Notes_Thumbnail.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Notes</h5>
+                            <p class="card-text">View my notes on math, physics and coding</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
 
             <!-- Shell's Kitchen -->
             <div class="col-sm-12 col-md-6 col-lg-4 d-flex align-items-stretch">
-                <div class="card" style="border-color: #FFB9BB; border-width: thick">
-                    <img class="card-img-top" src="img/Shell's_Kitchen_Photo.jpg">
-                    <div class="card-body">
-                        <h5 class="card-title">Shell's Kitchen</h5>
-                        <p class="card-text">Photo tutorials for some of my favorite recipes</p>
+                <a href="./shells-kitchen.html">
+                    <div class="card" style="border-color: #C14C76; border-width: thick">
+                        <img class="card-img-top" src="img/Homepage_Thumbnails/Shell's_Kitchen_Thumbnail.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Shell's Kitchen</h5>
+                            <p class="card-text">Photo tutorials for some of my favorite recipes</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
 
             <!-- About Me -->
             <div class="col-sm-12 col-md-6 col-lg-4 d-flex align-items-stretch">
-                <div class="card" style="border-color: #511466; border-width: thick">
-                    <img class="card-img-top" src="img/About_Photo.png">
-                    <div class="card-body">
-                        <h5 class="card-title">About Me</h5>
-                        <p class="card-text">Learn more about my background</p>
+                <a href="./about-me.html">
+                    <div class="card" style="border-color: #F17247; border-width: thick">
+                        <img class="card-img-top" src="img/Homepage_Thumbnails/About_Thumbnail.png">
+                        <div class="card-body">
+                            <h5 class="card-title">About Me</h5>
+                            <p class="card-text">Learn more about me and my background</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
 
