@@ -100,26 +100,73 @@
         <!-- Content: Blog Posts and Archives -->
         <div class="row col-12">
             <!-- Blog Posts -->
-            <div class="col-sm-12 col-md-8 col-lg-8 d-flex align-items-stretch">
+            <div class="col-sm-12 col-md-9 col-lg-9 d-flex align-items-stretch">
                 <div class="card" style="background-color: #120016; border-color: #744186; border-width: thick">
                     <div class="card-body">
                         <h3 class="card-title">
                             BUILDING MY WEBSITE
                         </h3>
-                        <p class="card-subtitle mb-2 text-muted">December 1, 2019</p>
+                        <p class="card-subtitle mb-2 text-muted">February 12, 2020</p>
                         <p class="card-text">
-                            Good evening everyone, and happy December! For the first blog post on this highly improved version of my website I thought I'd do a brief discussion on how it all came together. In case you didn't know, this website had a previous version. A version that was very text-heavy and looked poor on mobile devices. Here's a screenshot of my old website so you know what I'm talking about: 
+                            If you have a website that's been off to a rough start, you have come to the right place. I'm here to talk about how I screwed this website up on my first try and what I did to fix it. Hopefully you won't have to rewrite all of your HTML code from scratch like I did, and that this post will provide you with some helpful hints on web design that I've learned from trial and error.
+                        </p>
+                        <p>
+                            <strong>Old Website</strong>
+                        </p>
+                        <p>
+                            When I first build my website last summer, I made a couple of key mistakes in the design. Here's a screenshot of the old version so you get an idea of what I'm talking about:
 
                             <img src="blog-posts/imgs-post1/Old_Website.png" class="img-fluid" style="height: auto" alt="Old Website">
-
-                            This website design wasn't too bad, although there was too much text on the homepage which made it less appealing. 
-
+                            
+                            Overall this old design isn't too awful, it just made a couple of key mistakes:
+                        </p>
+                        <p>
+                            <strong>First Mistake:</strong> The homepage was very text heavy and uninteresting
+                            <ul style="font-family: 'Open Sans'">
+                                <li>This big mistake arose when I decided to put my blog posts on the home pagealong with my short bio. This resulted in the majority of the page consisting of text, and hiding the rest of the content of the website.</li>
+                                <li>Nobody wants to be presented with a long reading the second they click on a website. This makes it seem boring and can drive viewers away.</li>
+                                <li>This design would not have been too bad if I was only interested in sharing a specific kind of content, such as the blog. The problem is ta there's a lot more to explore than just the blog.</li>
+                            </ul>
+                        </p>
+                        <p>
+                            <strong>Second Mistake:</strong> The website was not mobile friendly. It looked very poor on any screen smaller than a large tablet.
+                            <ul style="font-family: 'Open Sans'">
+                                <li>This is a big problem in general because most people explore the internet on their mobile devices. A website that does not look right on a phone screen will be less likely to be revisited.</li>
+                                <li>This was a problem for me in particular because I link to my website on my social media profiles, particularly Twitter and Instagram. Most new viewers to my website will probably be coming from one of these platforms which are primarily used on mobile devices.</li>
+                            </ul>
+                        </p>
+                        <p>
+                            <strong>New Website</strong>
+                        </p>
+                        <p>
+                            When thinking about the construction of this new version of my website, I focused a lot on the design of the homepage. I wanted to deliver a much better first impression than before.
+                            <ul style="font-family: 'Open Sans'">
+                                <li>I ensured that each piece of text was accompanied by an image to make the content seem more interesting, and to grab the attention of the viewers.</li>
+                                <li>I continued with the placement of my short bio at the top of the page so viewers are immediately aware of the kind of website they are visiting as well as the content they are about to see.</li>
+                                <li>The "Latest Content" carousel came about when I decided to have an animated element in the website to grab the viewers' attention.</li>
+                                <li>This new design frequently uses cards to display content. I found that cards make things look neat while adding a decorative element such as a border. The cards also clearly unify an image with a piece of text.</li>
+                                <li>On the homepage I used cards as short descriptions for each of the different web pages. The cards include images that give a preview of what someone might see when the view each page.</li>
+                                <li>Lastly, the homepage is used to set the theme for the website. I went with a dark theme where the background is an off-black, and the colors all came from the Navigation Bar image. I used te app "Color Harmony" to extract colors found in the image and help me generate this palette:</li>
+                            </ul>
+                        </p>
+                        <img src="img/Website_Palette.png" class="img-fluid" style="height: auto" alt="Palette">
+                        <p>
+                            As I mentioned before, making the website mobile friendly is a very important part of the design since so many people browse the internet on their phones. For the most part, making my website mobile friendly consisted of adjusting the layout slightly for different screen sizes, and making sure the images can resize themselves.
+                            <ul style="font-family: 'Open Sans'">
+                                <li>I added pieces of code in the div class that specifies the size of a column for different screen sizes. You can specify the width of a column for screens that are considered "x-small, small, medium, large, and x-large" with x-small being a very small phone screen, small being a smart phone screen, medium being a tablet, large being a laptop or desktop computer, and x-large being a large TV screen.</li>
+                                <li>In general, I stuck to using only one column for small screens. I found that trying to put design elements next to each other, such as having an image on the left side and text on the right side, did not fit a phone screen well. This would cause the text to look a bit distorted and be a pain to read on a phone.</li>
+                                <li>Another thing I had to do was to get the sizes of the thumbnails and larger images to adjust for different screen sizes. All this really took was to add the class "img-fluid" to the image tags.</li>
+                                <li>One challenge I faced in making the website mobile friendly was getting the sizing of the text right. The difficulty arose in making the font sizes look nice on both a large screen as well as a small screen. In order to do this I used the classes "display-1, display-2, etc." provided by Bootstrap. This allows further adjustments of the font sizes for the tags "h1, h2, etc." without having to specify a size in pixels, cm, etc. This makes the text automatically adjust their sizes on different sized screens.</li>
+                            </ul> 
+                        </p>
+                        <p>
+                            Overall, I'm pretty happy with how this website turned out. It's definitely a lot better than my old one, which I'm proud of. Even if it's not perfect, the improvement is there. I'm still learning a lot about web development and making adjustments to this website as I go. It is a lot of fun and I highly recommend trying this if you enjoy coding, love being creative, and love solving problems!
                         </p>
                     </div>
                 </div>
             </div>
             <!-- Archives -->
-            <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="col-sm-12 col-md-3 col-lg-3">
                 <h2 class="text-right">Archives</h2>
             </div>
         </div>
