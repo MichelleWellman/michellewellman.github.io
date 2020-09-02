@@ -1,0 +1,63 @@
+/* Navigation Bar Specifications */
+.navbar {
+    font-family: 'Roboto', sans-serif;
+    color: #FAFAFA;
+}
+
+/* Increases the size of the jumbotron and adds the background photo */
+.jumbotron {
+    background: url("../horsehead-nebula.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+/* Sets the background color for the card and gives space between the border and thumbnail */
+.card {
+    background-color: #120016;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Font Specifications */
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #FAFAFA;
+    text-shadow: -1px 0 #120016, 0 1px #120016, 1px 0 #120016, 0 -1px #120016;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #FAFAFA;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    color: #FAFAFA;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    color: #FAFAFA;
+}
+
+h6 {
+    font-family: 'Roboto', sans-serif;
+    color: #FFB9BB;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #FAFAFA;
+}
+
+/* Font Colors for Links */
+a:link {
+    color: #FFB9BB;
+    text-decoration: none;
+}
+a:visited {
+    color: #FFB9BB;
+    text-decoration: none;
+}
